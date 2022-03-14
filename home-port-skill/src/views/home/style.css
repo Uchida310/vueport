@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'main-font';
+    src: url('../../assets/font/M_PLUS_1p/MPLUS1p-Medium.ttf');
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: 'main-font';
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.graph {
+    position: relative; /* IE is dumb */
+    width: 10vw;
+    border: 2px solid black;
+}
+
+.graph .bar {
+    display: block;
+    position: relative;
+    background: #409890;
+    text-align: center;
+    color: black;
+    height: 2.1em;
+    line-height: 2em;
+}
+.graph .bar span { position: absolute; }
+
+.has-skills {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.has-skills p {
+    font-size: 0.7em;
+}
+
+
+.main-container h2 {
+    text-align: center;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.introduction p {
+    font-size: 18px;
+}
+
+.has-licences {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.has-licences .content {
+    height: 400px;
+    width: 400px;
+}
+
+
+.content img {
+    width: 300px;
+}
+
+.strong {
+    font-size: 1.5em;
+}
