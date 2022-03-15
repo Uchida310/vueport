@@ -11,7 +11,7 @@ body {
 }
 
 p{
-    font-size: 10px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@ img {
 .graph {
     position: relative; /* IE is dumb */
     width: 10vw;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .graph .bar {
@@ -42,7 +42,12 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
+    margin-bottom: 120px;
 }
+.has-skills p {
+    font-size: 0.7em;
+}
+
 
 .main-container h2 {
     text-align: center;
@@ -51,6 +56,7 @@ img {
 .introduction {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 120px;
 }
 
 .introduction p {
@@ -59,9 +65,20 @@ img {
 
 .has-licences {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .has-licences .content {
     height: 400px;
+    width: 400px;
+}
+
+
+.content img {
+    width: 300px;
+}
+
+.strong {
+    font-size: 1.5em;
 }

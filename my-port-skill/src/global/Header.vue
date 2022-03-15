@@ -10,7 +10,7 @@
         <v-spacer></v-spacer>
         <router-link class="link-menu" to="/"><span>Home</span> </router-link>
         <router-link class="link-menu" to="/portfolios"><span>Portfolio</span> </router-link>
-        <router-link class="link-menu" to="/"><span>History</span> </router-link>
+        <router-link class="link-menu" to="/history"><span>History</span> </router-link>
         <router-link class="link-menu" to="/"><span>Contact</span> </router-link>
       </v-app-bar>
     
