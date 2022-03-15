@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'main-font';
+    src: url('../../assets/font/M_PLUS_1p/MPLUS1p-Medium.ttf');
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-family: 'main-font';
+}
+
+div {
+    margin: 0 10%
+}
+
+img {
+    max-width: 100%;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: darkblue;
+    text-decoration: none;
+  }
+
+  .content1 {
+      margin-bottom: 120px;
+      padding-bottom: 20px;
+      border-bottom: 2px darkblue solid;
+  }
+
+  .content2 {
+      padding-bottom: 20px;
+      border-bottom: 2px darkblue solid;
+  }
