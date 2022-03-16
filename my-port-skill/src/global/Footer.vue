@@ -28,7 +28,7 @@
       </v-card-title>
 
       <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Thank You Watching MyPortFolios!</strong>
+        {{ new Date().getFullYear() }} — <strong>Mitsuya.Uchida</strong>
       </v-card-text>
     </v-card>
   </v-footer>
