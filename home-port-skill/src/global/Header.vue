@@ -32,8 +32,13 @@ export default {};
     text-decoration: none;
     margin-right: 1%;
 }
-span{
+.link-menu span{
   color: azure;
+}
+
+.link-menu span:hover{
+  opacity: 0.3;
+  transition: all .2s ease;
 }
 
 </style>

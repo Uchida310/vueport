@@ -69,7 +69,7 @@
             </div>
             <div class="content">
                 <a href=""><h1>自己紹介ポートフォリオサイト</h1></a>
-                <a href=""><img src="../assets/webport.png" alt=""></a>
+                <a href=""><img src="../assets/my-port-skill.png" alt=""></a>
                 <h2>製作理由</h2>
                 <p>
                     フロントエンドのフレームワークに対応できることをアピールしたくて製作しました。<br>
