@@ -6,15 +6,17 @@
           <v-card>
             <v-list-item three-line>
               <v-list-item-content>
-                <v-list-item-title class="text-h5 mb-1">
-                  自己紹介
+                <v-list-item-title class="text-h4 my-1">
+                  自己紹介 
                 </v-list-item-title>
                 <v-list-item-avatar
                   tile
-                  size="80"
-                  color="grey"
-                ></v-list-item-avatar>
-                <v-list-item-text>
+                  min-height="200"
+                >
+                <v-img  contain height="350" src="../assets/profile.png"></v-img>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                  <div class="center">
                   <p>年齢: <span>27</span></p>
                   <p>
                     学歴:<span
@@ -24,13 +26,14 @@
                   </p>
                   <p>
                     趣味/特技:
-                    <span>スポーツ観戦/ゲーム制作/モダンIT情報収集</span>
-                  </p>
-                </v-list-item-text>
+                    <span>スポーツ観戦/ゲーム制作/モダンIT情報収集/筋トレ</span>
+                  </p>       
+                  </div>   
+                </v-list-item-content>
               </v-list-item-content>
             </v-list-item>
           </v-card>
-          <h2>所持しているエンジニアスキル</h2>
+          <h2 class="my-5">所持しているスキル</h2>
           <v-row justify="center" align="center" class="has-skill">
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>HTML/CSS</v-text>
@@ -97,7 +100,7 @@
               </div>
             </v-col>
           </v-row>
-          <h2>所持資格</h2>
+          <h2 class="my-5">所持資格</h2>
           <v-row justify="center" align-content="center">
             <v-col cols="12" md="6">
               <v-card>
@@ -163,6 +166,10 @@ p {
 .home-v-col p{
   text-align: center;
 }
+.center  p {
+  text-align: center;
+  margin-right: 10%;
+}
 
 .graph {
   position: relative; /* IE is dumb */
@@ -184,4 +191,5 @@ p {
 .graph .bar span {
   position: absolute;
 }
+
 </style>
