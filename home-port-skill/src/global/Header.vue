@@ -11,6 +11,7 @@
         <router-link class="link-menu" to="/"><span>Home</span> </router-link>
         <router-link class="link-menu" to="/portfolios"><span>Portfolio</span> </router-link>
         <router-link class="link-menu" to="/history"><span>History</span> </router-link>
+        <a class="link-menu" href="https://github.com/Uchida310"><span>GitHub</span></a>
       </v-app-bar>
     
     </v-app>

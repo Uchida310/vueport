@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <v-app>
@@ -9,16 +8,13 @@
           tile
           elevation="12"
           light
-          style="margin-top:20px;"
-        >
-          <v-card-title
-            >高校卒業後、リサイクルショップでアルバイトを始める。</v-card-title
-          >
+          style="margin-top:20px;">
+          <v-card-title>高校卒業後、リサイクルショップでアルバイトを始める。</v-card-title>
           <v-card-subtitle>2013/04</v-card-subtitle>
-           <v-divider></v-divider>
+          <v-divider></v-divider>
           <v-card-text>
             <div style="margin-top:10px;">
-              特に将来の目標もなく、卒業と同時に一人暮らしを開始。21まで適当に生きる。
+              特に将来の目標もなく卒業と同時に一人暮らしを開始。21まで適当に生きる。
             </div>
           </v-card-text>
         </v-card>
@@ -33,7 +29,7 @@
           <v-divider></v-divider>
           <v-card-text>
             <div>
-              従弟が16歳で他界し、自分の人生について考えるようになる<br />
+              従弟が16歳で他界し、自分の人生について考えるようになる<br>
               適当に生きることの無意味さを感じ、アルバイトを真面目にするようになる。
             </div>
           </v-card-text>
@@ -49,7 +45,7 @@
           <v-divider></v-divider>
           <v-card-text>
             <div>
-              家電担当を本格的に任される。<br />
+              家電担当を本格的に任される。<br>
               買取価格や販売価格を自分で管理し、目標を達成できるよう考えて働くようになる。
             </div>
           </v-card-text>
@@ -69,7 +65,6 @@
             </div>
           </v-card-text>
         </v-card>
-
         <v-card
          class="v-content-style"
           tile
@@ -102,7 +97,6 @@
             </div>
           </v-card-text>
         </v-card>
-
         <v-card
           class="v-content-style"
           tile
@@ -137,7 +131,6 @@
             </div>
           </v-card-text>
         </v-card>
-
         <v-card
           class="v-content-style"
           tile
@@ -166,7 +159,7 @@
           <v-divider></v-divider>
           <v-card-text>
             <div>
-              講師や外部講話で刺激を受け、技術的な理由で諦めたweb系エンジニアを目指し学習を始める。
+              訓練校のカリキュラムで刺激を受け、技術的な理由で諦めていたweb系エンジニアを目指し学習を始める。
             </div>
           </v-card-text>
         </v-card>
@@ -204,10 +197,7 @@
             </div>
           </v-card-text>
         </v-card>
- 
-
-        <v-card
-         class="v-content-style"
+        <v-card class="v-content-style"
           tile
           elevation="12"
           light
@@ -217,12 +207,12 @@
           <v-divider></v-divider>
           <v-card-text>
             <div>
-              今まで製作したポートフォリオと資格を手に、就職活動を行う。<br />
-              自分の成長と人への貢献を両立できる会社への就職を目指す。
+              就職活動を行う。<br />
+              自分の成長と人への貢献を両立できる会社への就職を目指す。<br>
+              PHPの学習を併行して行う。
             </div>
           </v-card-text>
         </v-card>
-
       </v-container>
     </v-app>
   </div>
@@ -244,7 +234,7 @@ export default {
   margin-bottom: 40px;
   width: 600px;
 }
-.v-content-style:nth-of-type(2n){
+.v-content-style:nth-of-type(2n) {
   margin-left: 12vw;
 }
 
@@ -253,12 +243,10 @@ export default {
   font-family: "Osaka";
 }
 
- h1{
+h1 {
   
   font-size: 2em;
   letter-spacing: 10px;
   text-shadow: 2.3px 2px 3px #808080;
 }
-
-
 </style>

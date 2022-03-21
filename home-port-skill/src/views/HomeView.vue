@@ -7,28 +7,29 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <v-list-item-title class="text-h4 my-1">
-                  自己紹介 
+                  自己紹介
                 </v-list-item-title>
-                <v-list-item-avatar
-                  tile
-                  min-height="200"
-                >
-                <v-img  contain height="350" src="../assets/profile.png"></v-img>
+                <v-list-item-avatar tile min-height="200">
+                  <v-img
+                    contain
+                    height="350"
+                    src="../assets/profile.png"
+                  ></v-img>
                 </v-list-item-avatar>
                 <v-list-item-content>
                   <div class="center">
-                  <p>年齢: <span>27</span></p>
-                  <p>
-                    学歴:<span
-                      >宮崎県立都城工業高等学校卒業/<br />
-                      ライフビジネスクール/情報処理技術者養成科卒業</span
-                    >
-                  </p>
-                  <p>
-                    趣味/特技:
-                    <span>スポーツ観戦/ゲーム制作/モダンIT情報収集/筋トレ</span>
-                  </p>       
-                  </div>   
+                    <p>年齢:<span>27</span></p>
+                    <p>
+                      学歴:<span
+                        >宮崎県立都城工業高等学校情報制御システム科卒業<br />
+                        ライフビジネスクール情報処理技術者養成科卒業</span
+                      >
+                    </p>
+                    <p>
+                      趣味/特技:
+                      <span>スポーツ観戦/ゲーム制作</span>
+                    </p>
+                  </div>
                 </v-list-item-content>
               </v-list-item-content>
             </v-list-item>
@@ -37,7 +38,7 @@
           <v-row justify="center" align="center" class="has-skill">
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>HTML/CSS</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 50%; background: yellowgreen"
                   >50%</span
@@ -46,14 +47,14 @@
             </v-col>
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>JavaScript</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 70%; background: red">70%</span>
               </div>
             </v-col>
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>Vue.js</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 30%; background: green"
                   >30%</span
@@ -62,7 +63,7 @@
             </v-col>
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>JAVA</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 40%; background: yellowgreen"
                   >40%</span
@@ -71,28 +72,30 @@
             </v-col>
             <v-col cols="6" md="4">
               <v-text>Linux</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 25%">25%</span>
               </div>
             </v-col>
             <v-col cols="6" md="4" class="home-v-col">
               <v-text>Git</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
-                <span class="bar" style="width: 30%; background: green">30%</span>
+                <span class="bar" style="width: 30%; background: green"
+                  >30%</span
+                >
               </div>
             </v-col>
             <v-col cols="6" md="4">
               <v-text>AWS</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 25%">25%</span>
               </div>
             </v-col>
             <v-col cols="6" md="4">
               <v-text>Unity</v-text>
-              <v-spacer  class="mb-1"></v-spacer>
+              <v-spacer class="mb-1"></v-spacer>
               <div class="graph">
                 <span class="bar" style="width: 40%; background: yellowgreen"
                   >40%</span
@@ -163,10 +166,10 @@ p {
   font-weight: bold;
 }
 
-.home-v-col p{
+.home-v-col p {
   text-align: center;
 }
-.center  p {
+.center p {
   text-align: center;
   margin-right: 10%;
 }

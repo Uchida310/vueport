@@ -2,8 +2,8 @@
   <div class="portfolio-body">
       <div class="main-container">
             <div class="content">
-                <a href=""><h1>スマホアプリ紹介webサイト</h1></a>
-                <a href=""><img src="../assets/lpport.png" alt=""></a>
+                <a href="https://lpport.firebaseapp.com/"><h1>スマホアプリ紹介webサイト</h1></a>
+                <a href="https://lpport.firebaseapp.com/"><img src="../assets/lpport.png" alt=""></a>
                 <h2>製作理由</h2>
                 <p>
                     企業に提出できるwebサイトを作ろうと思ったのが一番の理由です。<br>
@@ -34,8 +34,8 @@
                 </p>
             </div>
             <div class="content">
-                <a href=""><h1>webアプリケーション-ポドモーロタイマー</h1></a>
-                <a href=""><img src="../assets/webport.png" alt=""></a>
+                <a href="https://webport-e13e7.web.app/"><h1>webアプリケーション-ポドモーロタイマー</h1></a>
+                <a href="https://webport-e13e7.web.app/"><img src="../assets/webport.png" alt=""></a>
                 <h2>製作理由</h2>
                 <p>
                     ユーザーファーストのwebサイトを作ろうと思ったのが一番の理由です。<br>
@@ -57,6 +57,7 @@
                 <h2>改善点</h2>
                 <p>
                     1.リロードするとURLの入れ直しになるので、ユーザーの入力値をcoookieに保存して利用したい。<br>
+                    3.停止機能を搭載していないので、ロジックを修正して停止可能にしたい。
                     2.jsのコードが冗長なのでリファクタリングして時間設定などをメソッド化したい。
                 </p>
                 <h2>利用した技術</h2>
@@ -68,8 +69,8 @@
                 </p>
             </div>
             <div class="content">
-                <a href=""><h1>自己紹介ポートフォリオサイト</h1></a>
-                <a href=""><img src="../assets/my-port-skill.png" alt=""></a>
+                <a href="#"><h1>自己紹介ポートフォリオサイト</h1></a>
+                <a href="#"><img src="../assets/my-port-skill.png" alt=""></a>
                 <h2>製作理由</h2>
                 <p>
                     フロントエンドのフレームワークに対応できることをアピールしたくて製作しました。<br>

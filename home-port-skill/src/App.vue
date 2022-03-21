@@ -10,7 +10,6 @@
     </v-main>
     <Footer/>
     </div>
-    
   </v-app>
 </template>
 
@@ -27,9 +26,13 @@ export default {
     loading: true
   }),
   mounted(){
+    
     setTimeout(() => {
       this.loading = false;
     }, 1000);
+  },
+  beforeCreate(){
+document.title="Mitusya.Uchida-Portfolio"
   },
   components: {
     Header,
